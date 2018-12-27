@@ -1,0 +1,24 @@
+0	1	mikroCPIC32.exe -MSF -DBG -pP32MX795F512L -UICD -C -DL -SSA -EBASE 0x9FC01000 -INTDEF MV_SRS7_IS32 -O11111115 -fo80 -N"D:\Clicks_git\P\Pedometer_3_click\SW\example\c\PIC32\I2C\Click_Pedometer3_PIC32.mcp32" -SP"C:\Users\Public\Documents\Mikroelektronika\mikroC PRO for PIC32\Defs\" -SP"C:\Users\Public\Documents\Mikroelektronika\mikroC PRO for PIC32\Uses\" -SP"D:\Clicks_git\P\Pedometer_3_click\SW\example\c\PIC32\I2C\" -SP"D:\Clicks_git\P\Pedometer_3_click\SW\library\HAL\" -SP"D:\Clicks_git\P\Pedometer_3_click\SW\library\" -SP"C:\Users\Public\Documents\Mikroelektronika\mikroC PRO for PIC32\Packages\mikroBUS Board Definition API\Uses\" -IP"C:\Users\Public\Documents\Mikroelektronika\mikroC PRO for PIC32\Uses\" -IP"D:\Clicks_git\P\Pedometer_3_click\SW\example\c\PIC32\I2C\" -IP"D:\Clicks_git\P\Pedometer_3_click\SW\library\" -IP"D:\Clicks_git\P\Pedometer_3_click\SW\library\HAL\" -IP"C:\Users\Public\Documents\Mikroelektronika\mikroC PRO for PIC32\Packages\mikroBUS Board Definition API\Uses\" "Click_Pedometer3_PIC32.c" "__pedometer3_Driver.c" "__Lib_CP0.emcl" "__Lib_Math.emcl" "__Lib_MathDouble.emcl" "__Lib_System.emcl" "__Lib_SoftResetDma.emcl" "__Lib_Delays.emcl" "__Lib_CString.emcl" "__Lib_Conversions.emcl" "__Lib_I2C_12345.emcl" "__Lib_SPI_1234.emcl" "__Lib_UART_123456.emcl" "easypicfusion_v7_P32MX795F512L.emcl" "Click_Pedometer3.pld"	 
+diagnostics: 0	122	Compilation Started	P32MX795F512L.c
+diagnostics: 39364	123	Compiled Successfully	P32MX795F512L.c
+diagnostics: 0	122	Compilation Started	__Lib_Delays.c
+diagnostics: 176	123	Compiled Successfully	__Lib_Delays.c
+diagnostics: 0	122	Compilation Started	stdint.h
+diagnostics: 349	123	Compiled Successfully	easypicfusion_v7_P32MX795F512L.c
+diagnostics: 0	122	Compilation Started	stdint.h
+diagnostics: 74	123	Compiled Successfully	Click_Pedometer3_PIC32.c
+diagnostics: 0	122	Compilation Started	stdint.h
+warning: 551	1503	Result is not defined in function: 'pedometer3_configuration'	__pedometer3_Driver.c
+diagnostics: 551	123	Compiled Successfully	__pedometer3_Driver.c
+hint: 323	1164	Variable 'tmp' has been eliminated by optimizer	__pedometer3_Driver.c
+hint: 34	1164	Variable 'tmp' has been eliminated by optimizer	__pedometer3_Driver.c
+hint: 95	1164	Variable 'tmp' has been eliminated by optimizer	__pedometer3_Driver.c
+diagnostics: 0	127	All files Compiled in 218 ms	 
+hint: 0	1144	Used RX: 32 (100%)   Free RX: 0 (0%)	Used RX: 32 (100%)   Free RX: 0 (0%)
+hint: 0	1144	Static RAM (bytes): 729   Dynamic RAM (bytes): 130337	Static RAM (bytes): 729   Dynamic RAM (bytes): 130337
+hint: 0	1144	Used ROM (bytes): 13692 (3%)  Free ROM (bytes): 510596 (97%)	Used ROM (bytes): 13692 (3%)  Free ROM (bytes): 510596 (97%)
+hint: 0	1144	Used BOOTROM (bytes): 320 (3%)  Free BOOTROM (bytes): 11953 (97%)	Used BOOTROM (bytes): 320 (3%)  Free BOOTROM (bytes): 11953 (97%)
+diagnostics: 0	125	Project Linked Successfully	Click_Pedometer3_PIC32.mcp32
+diagnostics: 0	128	Linked in 266 ms	 
+diagnostics: 0	129	Project 'Click_Pedometer3_PIC32.mcp32' completed: 1359 ms	 
+diagnostics: 0	103	Finished successfully: 01 okt 2018, 08:34:01	Click_Pedometer3_PIC32.mcp32

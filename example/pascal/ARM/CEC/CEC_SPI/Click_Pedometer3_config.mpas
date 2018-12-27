@@ -1,0 +1,9 @@
+unit Click_Pedometer3_config;
+
+uses Click_Pedometer3_types;
+
+const
+    _PEDOMETER3_SPI_CFG : array[3] of uint32_t = (1000000, _SPI_MSB_FIRST, _SPI_CLK_IDLE_LOW or _SPI_SAMPLE_DATA_RISING_EDGE); 
+    _PEDOMETER3_I2C_CFG : array[1] of uint32_t = (_I2C_100KHZ); 
+    
+end.

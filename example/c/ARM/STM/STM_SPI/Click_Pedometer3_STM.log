@@ -1,0 +1,19 @@
+0	1	mikroCARM.exe -MSF -DBG -pSTM32F107VC -BIN -LHF -DL -SSA -O11111114 -fo72 -N"D:\Clicks_git\P\Pedometer_3_click\SW\example\c\ARM\STM\STM_SPI\Click_Pedometer3_STM.mcpar" -SP"C:\Users\Public\Documents\Mikroelektronika\mikroC PRO for ARM\Defs\" -SP"C:\Users\Public\Documents\Mikroelektronika\mikroC PRO for ARM\Uses\ST M3\" -SP"D:\Clicks_git\P\Pedometer_3_click\SW\example\c\ARM\STM\STM_SPI\" -SP"D:\Clicks_git\P\Pedometer_3_click\SW\library\HAL\" -SP"D:\Clicks_git\P\Pedometer_3_click\SW\library\" -SP"C:\Users\Public\Documents\Mikroelektronika\mikroC PRO for ARM\Packages\mikroBUS Board Definition API\Uses\" -IP"C:\Users\Public\Documents\Mikroelektronika\mikroC PRO for ARM\Uses\ST M3\" -IP"D:\Clicks_git\P\Pedometer_3_click\SW\example\c\ARM\STM\STM_SPI\" -IP"D:\Clicks_git\P\Pedometer_3_click\SW\library\" -IP"D:\Clicks_git\P\Pedometer_3_click\SW\library\HAL\" -IP"C:\Users\Public\Documents\Mikroelektronika\mikroC PRO for ARM\Packages\mikroBUS Board Definition API\Uses\" "Click_Pedometer3_STM.c" "__pedometer3_driver.c" "__Lib_Math.emcl" "__Lib_MathDouble.emcl" "__Lib_Delays.emcl" "__Lib_System_105_107.emcl" "__Lib_GPIO_32F10x_Defs.emcl" "__Lib_GPIO_32F10x.emcl" "__Lib_CString.emcl" "__Lib_Conversions.emcl" "__Lib_I2C_12.emcl" "__Lib_SPI_123.emcl" "__Lib_UART_123_45.emcl" "easymx_v7_STM32F107VC.emcl" "Click_Pedometer3.pld"	 
+diagnostics: 0	122	Compilation Started	stdint.h
+error: 58	324	Undeclared identifier 'pedometer3_spiDriverInit' in expression	Click_Pedometer3_STM.c
+error: 58	317	Operator '' is not applicable to these operands ''	Click_Pedometer3_STM.c
+error: 58	402	; expected, but ')' found	Click_Pedometer3_STM.c
+error: 58	424	'}' expected ';' found	Click_Pedometer3_STM.c
+error: 73	324	Undeclared identifier 'pedometer3_getAccelAxis' in expression	Click_Pedometer3_STM.c
+error: 74	324	Undeclared identifier 'pedometer3_getHighPassAccelAxis' in expression	Click_Pedometer3_STM.c
+error: 75	324	Undeclared identifier 'pedometer3_getPedometerStepCounter' in expression	Click_Pedometer3_STM.c
+error: 75	317	Operator '' is not applicable to these operands ''	Click_Pedometer3_STM.c
+error: 106	324	Undeclared identifier 'pedometer3_getTiltPosition' in expression	Click_Pedometer3_STM.c
+diagnostics: 0	122	Compilation Started	stdint.h
+diagnostics: 812	123	Compiled Successfully	__pedometer3_driver.c
+hint: 323	1164	Variable 'tmp' has been eliminated by optimizer	__pedometer3_driver.c
+hint: 35	1164	Variable 'tmp' has been eliminated by optimizer	__pedometer3_driver.c
+hint: 84	1164	Variable 'tmp' has been eliminated by optimizer	__pedometer3_driver.c
+hint: 101	1164	Variable 'ptr' has been eliminated by optimizer	__pedometer3_driver.c
+hint: 109	1164	Variable 'ptr' has been eliminated by optimizer	__pedometer3_driver.c
+error: 0	102	Finished (with errors): 02 okt 2018, 15:32:51	Click_Pedometer3_STM.mcpar
